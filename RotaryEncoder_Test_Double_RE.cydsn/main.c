@@ -22,22 +22,29 @@ char strBuff[80];
 //         0:変化なし 1:時計回り -1:反時計回り
 //
 
-int readRE()
+int readRE(int RE_n)
 {
-    static uint8_t index;
+    static uint8_t index[2];
     uint8_t rd;
     int retval = 0;
     
-    rd = Pin_RE2_Read();
+    switch(RE_n) {
+    case 0:
+        rd = Pin_RE1_Read();
+        break;
+    case 1:
+        rd = Pin_RE2_Read();
+        break;
+    }
     /*
     sprintf(strBuff, "%d\t", rd);
     UART_UartPutString(strBuff);
     */
     
-    index = (index << 2) | rd;
-	index &= 0b1111;
+    index[RE_n] = (index[RE_n] << 2) | rd;
+	index[RE_n] &= 0b1111;
 
-	switch (index) {
+	switch (index[RE_n]) {
 	// 時計回り
 	case 0b0001:	// 00 -> 01
 	case 0b1110:	// 11 -> 10
@@ -55,7 +62,7 @@ int readRE()
 int main()
 {
 
-    int rv;
+    int rv1, rv2;
     
     CyGlobalIntEnable; /* Enable global interrupts. */
 
@@ -65,10 +72,11 @@ int main()
 
     for(;;)
     {
-        rv = readRE();
+        rv1 = readRE(0);
+        rv2 = readRE(1);
         //rv = Pin_RE_Read();
-        if (rv != 0) {
-            sprintf(strBuff, "%d\r\n", rv);
+        if (rv1 != 0 || rv2 != 0) {
+            sprintf(strBuff, "%d\t%d\r\n", rv1, rv2);
             UART_UartPutString(strBuff);
         }
         

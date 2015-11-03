@@ -342,9 +342,53 @@
 <VisibleNodeIds>
 <v>RotaryEncoder_Test</v>
 <v>RotaryEncoder_Test\RotaryEncoder_Test</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_RE.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_RE_in.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_BOOT.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_PM.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_rx.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SCBCLK.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_tx.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\UART_UART_BOOT.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\RotaryEncoder_Test.elf</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\RotaryEncoder_Test.hex</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\CortexM0\ARM_GCC_493\Debug\RotaryEncoder_Test.map</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test\RotaryEncoder_Test.gpdsc</v>
 <v>RotaryEncoder_Test\RotaryEncoder_Test\RotaryEncoder_Test.rpt</v>
 <v>RotaryEncoder_Test\RotaryEncoder_Test\RotaryEncoder_Test_timing.html</v>
 <v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0\ARM_GCC_493</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0\ARM_GCC_493\Debug</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_Debouncer.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_Debouncer_1.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>RotaryEncoder_Test\RotaryEncoder_Test_Double_RE\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
